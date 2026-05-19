@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --background: 30 30% 95%;
+  --foreground: 15 50% 14%;
+  --primary: 15 50% 14%;
+  --primary-foreground: 30 30% 95%;
+  --accent: 16 45% 48%;
+  --muted: 36 25% 91%;
+  --border: 30 18% 80%;
+  --navbar: 15 55% 10%;
+  --essaouira-blue: 200 55% 45%;
+  --olive-green: 85 35% 40%;
+  color-scheme: light;
+}
+
+.dark {
+  --background: 18 20% 9%;
+  --foreground: 33 31% 90%;
+  --primary: 33 31% 90%;
+  --primary-foreground: 18 20% 9%;
+  --accent: 22 44% 61%;
+  --muted: 18 18% 14%;
+  --border: 21 14% 25%;
+  --navbar: 14 33% 7%;
+  --essaouira-blue: 200 45% 58%;
+  --olive-green: 85 30% 55%;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-inter: Inter, system-ui, sans-serif;
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-muted: hsl(var(--muted));
+  --color-border: hsl(var(--border));
+  --color-navbar: hsl(var(--navbar));
+  --color-essaouira-blue: hsl(var(--essaouira-blue));
+  --color-olive-green: hsl(var(--olive-green));
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: Inter, system-ui, sans-serif;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.hero-gradient {
+  background: linear-gradient(to bottom, rgba(54, 28, 13, 0.1) 0%, rgba(54, 28, 13, 0.58) 100%);
+}
+
+.photo-overlay {
+  background: rgba(54, 28, 13, 0.55);
+}
+
+.marquee-track {
+  animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

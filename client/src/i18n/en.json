@@ -1,0 +1,18 @@
+{
+  "brand": "ATLAS ATLANTIC",
+  "nav": {
+    "region": "Region",
+    "lake": "Lake",
+    "aghmat": "Aghmat",
+    "sustainable": "Eco",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "label": "MARRAKECH-SAFI REGION",
+    "title": "Beyond Marrakech. Discover Hidden Treasures.",
+    "subtitle": "From red medinas to Atlantic wind, Atlas lakes and medieval ruins.",
+    "explore": "Explore Now",
+    "plan": "Plan Your Trip"
+  }
+}

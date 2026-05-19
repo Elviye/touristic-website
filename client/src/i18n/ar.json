@@ -1,0 +1,18 @@
+{
+  "brand": "أطلس أطلسي",
+  "nav": {
+    "region": "الجهة",
+    "lake": "البحيرة",
+    "aghmat": "أغمات",
+    "sustainable": "بيئي",
+    "gallery": "المعرض",
+    "contact": "تواصل"
+  },
+  "hero": {
+    "label": "جهة مراكش آسفي",
+    "title": "Beyond Marrakech. Discover Hidden Treasures.",
+    "subtitle": "من المدينة الحمراء إلى رياح الأطلسي وبحيرات الأطلس وآثار العصور الوسطى.",
+    "explore": "استكشف",
+    "plan": "خطط رحلتك"
+  }
+}
